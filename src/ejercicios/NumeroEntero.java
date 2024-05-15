@@ -15,8 +15,9 @@ public class NumeroEntero {
         while (i <= numero) {
             if (i % 2 == 0) {
                 System.out.println(i);
+
             }
-            i++; // Incrementamos i en cada iteración
+            i++;
         }
     }
 }

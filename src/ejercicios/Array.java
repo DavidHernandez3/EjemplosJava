@@ -8,13 +8,13 @@
             String[] mascotas = new String[10];
 
             for (int i = 0; i < 10; i++) {
-                System.out.println("Ingrese el nombre de un animal : [" + i + "]");
+                System.out.println("Ingrese el nombre de una mascota : [" + i + "]");
                 mascotas[i] = entrada.next();
             }
 
             System.out.println("Los nombres de las mascotas ingresadas son:");
             for (int i = 0; i < 10; i++) {
-                System.out.println("[" + i + "] " + mascotas[i]);
+                System.out.println("[" + i + "] " + mascotas[i] + "\n");
             }
         }
     }
